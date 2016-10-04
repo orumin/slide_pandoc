@@ -1,8 +1,37 @@
 %\usepackage{luatexja}
-\setmainfont{Koruri}
-\setsansfont{Koruri}
-\setmonofont{Koruri}
-\fontspec{Koruri}
+\usepackage{xeCJK}
+\setCJKmainfont{Koruri}
+\setCJKsansfont{Koruri}
+\setCJKmonofont{Koruri}
+%\setmainfont{Times}
+%\setsansfont{Helvetica}
+%\setmonofont{Courier}
 \XeTeXlinebreaklocale "ja"
+\usepackage{fontspec}
+\usepackage{xltxtra}
+\usepackage{xunicode}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+
+%\setbeamercolor{bibliography entry author}{fg=black}
+%\setbeamercolor{bibliography entry title}{fg=black}
+%\setbeamercolor{bibliography entry location}{fg=black}
+\beamertemplatetextbibitems
+
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+
+\xeCJKDeclareCharClass{CJK}{`○}
+\xeCJKDeclareCharClass{CJK}{`△}
+
+\usepackage{bxdpx-beamer}
 
 \usepackage[normalem]{ulem}
+
+\newcommand{\columnsbegin}{\begin{columns}}
+\newcommand{\columnsend}{\end{columns}}
+\newcommand{\clearsec}{\renewcommand{\section}[2]{}}
+
+\usefonttheme{professionalfonts}
+\usecolortheme{beaver}
+
+\setbeamertemplate{footline}[frame number]

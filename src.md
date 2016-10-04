@@ -1,6 +1,9 @@
-% Test bed
-% orumin
-% Date is here
+---
+author: orumin
+institute: Example University
+title: Slide Example
+date: Oct 5th, 2016
+---
 
 # Introduction
 ## Who are you?
