@@ -8,20 +8,18 @@ date: Oct 5th, 2016
 # Introduction
 ## Who are you?
 
-\begin{minipage}[t]{0.5\textwidth}
-  \begin{itemize}
-    \item orumin
-    \item student
-  \end{itemize}
-\end{minipage}
-\hspace*{0.5cm}
-\begin{minipage}{0.5\textwidth}
-  \begin{figure}[H]
-    \begin{flushright}
-      \includegraphics[scale=0.5,clip]{./images/my_image.png}
-    \end{flushright}
-  \end{figure}
-\end{minipage}
+\columnsbegin
+
+\column{.5\textwidth}
+
+- orumin
+- student
+
+\column{.5\textwidth}
+
+![](./images/my_image.png)
+
+\columnsend
 
 ##
 
