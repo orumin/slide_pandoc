@@ -50,3 +50,24 @@ int main(int argc, char *argv[])
     return 0;
 }
 ```
+
+## equation
+
+$$ y=f(x) $$
+$$ A_x = b $$
+$$
+\begin{array}{r @{{}={}} c @{} l}
+\mathcal{L} & \underbrace{g \langle \bar{\nu} \nu \rangle} & \bar{\nu} \nu\\
+            & m_{\nu}^2                                & \bar{\nu} \nu
+\end{array}
+$$
+$$
+\mathbb{A}=\left(
+\begin{array}{cccc}
+    a_{11} & a_{12} & \cdots & a_{1n} \\
+    a_{21} & a_{22} & \cdots & a_{2n} \\
+    \vdots & \vots & \ddots & \vdots \\
+    a_{m1} & a_{m2} & \cdots & a_{mn} \\
+\end{array}
+\right)
+$$
